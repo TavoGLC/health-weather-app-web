@@ -1,36 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# the health weather app 
 
-## Getting Started
+The health weather app is a simple application that aims to approximate the prevalence or susceptibility to infectious diseases. Currently, it is only approximating COVID-19 prevalence. 
+The prevalence forecast is approximated by combining two estimators. The first one is calculated by the density of isolated genomes per day. The second one is calculated as the percentage of the adenine content inside the SARS-Cov2 genome. 
+You can also access a genome comparison panel to address the possible emergence of new variants. In there, you can find the comparison between the current genome and the 15-day and 30-day forecasts. 
 
-First, run the development server:
+The mobile version of the app is also available at Gumroad. (https://octaviogl.gumroad.com/l/mbkvk)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+If you want to support this project, please consider buying the app or making a donation at https://www.buymeacoffee.com/tavoglc
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If you're a Linux user, you can also try genome-coder, a simple analysis tool for viral genomes. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/genome-coder)# health-weather-app-web
