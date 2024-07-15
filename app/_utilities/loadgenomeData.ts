@@ -24,7 +24,8 @@ function argmax(arr:number[]) {
 
 async function GenomeModel(data:ModelType): Promise<any> {
 
-    const ModelURL = 'http://localhost:3000/model/model.json';
+    ///const ModelURL = 'http://localhost:3000/model/model.json';
+    const ModelURL = 'https://health-weather-app-web.vercel.app/model/model.json';
     const compositionModel = await tf.loadLayersModel(ModelURL);
     const ardata = tf.tensor2d(data.data)
     const localdata = (compositionModel.predict(ardata) as tf.Tensor)

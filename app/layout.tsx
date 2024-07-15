@@ -9,15 +9,15 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "health weather app",
   description: "Forecast COVID-19 prevalence",
-  /*
+  
   openGraph: {
     title: 'health weather appc',
     description: 'Forecast COVID-19 prevalence',
-    url: 'https://tlahui.vercel.app/',
+    url: 'https://health-weather-app-web.vercel.app/',
     siteName: 'health weather app',
     images: [
       {
-        url: 'https://tlahui.vercel.app/social-media-image.jpg', // Must be an absolute URL
+        url: 'https://health-weather-app-web.vercel.app/metadata.png', // Must be an absolute URL
         width: 675,
         height: 450,
       }]
@@ -27,12 +27,12 @@ export const metadata: Metadata = {
     title: 'health weather app',
     description: 'Forecast COVID-19 prevalence',
     images: [{
-      url: 'https://tlahui.vercel.app/social-media-image.jpg', // Must be an absolute URL
+      url: 'https://health-weather-app-web.vercel.app/metadata.png', // Must be an absolute URL
       width: 675,
       height: 450,
     }]
   }
-    */
+  
 };
 
 export default function RootLayout({
