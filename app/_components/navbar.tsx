@@ -20,7 +20,7 @@ export const Navbar = () => {
                     <Button onClick={onForecast}> Forecast </Button>
                     <Button onClick={onCompare}> Compare </Button>
                     
-                    <Link href="https://www.buymeacoffee.com/tavoglc"  target="_blank" rel="noopener noreferrer">
+                    <Link href="https://buymeacoffee.com/tavoglc/the-health-weather-app-web"  target="_blank" rel="noopener noreferrer">
                         <Button title="Donate :3">
                             Donate
                         </Button>
