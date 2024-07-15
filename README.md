@@ -11,3 +11,4 @@ If you want to support this project, please consider buying the app or making a 
 If you're a Linux user, you can also try genome-coder, a simple analysis tool for viral genomes. 
 
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/genome-coder)# health-weather-app-web
+# health-weather-app-web
